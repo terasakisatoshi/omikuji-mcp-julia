@@ -1,0 +1,18 @@
+[project]
+name = "omikuji-mcp-julia"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "juliacall>=0.9.24",
+    "mcp[cli]>=1.8.0",
+    "numpy>=2.2.5",
+    "pillow>=11.2.1",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "ipython>=9.2.0",
+]
